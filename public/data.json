@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 10,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Alice Smith",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "alice@example.com",
+    "days_since_contact": 5,
+    "status": "upcoming",
+    "tags": ["work", "team"],
+    "bio": "Colleague from marketing department.",
+    "goal": 10,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "bob@example.com",
+    "days_since_contact": 10,
+    "status": "due",
+    "tags": ["gym", "friend"],
+    "bio": "Workout partner at the gym.",
+    "goal": 10,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "email": "emily@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Cousin living abroad.",
+    "goal": 15,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 5,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 3,
+    "status": "upcoming",
+    "tags": ["client"],
+    "bio": "Important business client.",
+    "goal": 7,
+    "next_due_date": "2025-08-05"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "email": "sophia@example.com",
+    "days_since_contact": 7,
+    "status": "due",
+    "tags": ["college"],
+    "bio": "Classmate from computer science.",
+    "goal": 7,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 7,
+    "name": "David Lee",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "email": "david@example.com",
+    "days_since_contact": 14,
+    "status": "overdue",
+    "tags": ["neighbor"],
+    "bio": "Lives next door.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Martinez",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "email": "olivia@example.com",
+    "days_since_contact": 2,
+    "status": "upcoming",
+    "tags": ["friend"],
+    "bio": "Met at a conference.",
+    "goal": 7,
+    "next_due_date": "2025-08-03"
+  },
+  {
+    "id": 9,
+    "name": "James Anderson",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 10,
+    "status": "due",
+    "tags": ["project"],
+    "bio": "Worked together on a freelance project.",
+    "goal": 10,
+    "next_due_date": "2025-07-29"
+  },
+  {
+    "id": 10,
+    "name": "Isabella Thomas",
+    "picture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "email": "isabella@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["family", "close friend"],
+    "bio": "Childhood friend.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  }
+]
