@@ -9,7 +9,7 @@
     "tags": ["college", "close friend"],
     "bio": "Met in university. Love hiking together.",
     "goal": 10,
-    "next_due_date": "2025-07-20"
+    "next_due_date": "Jan 15, 2026"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "tags": ["work", "team"],
     "bio": "Colleague from marketing department.",
     "goal": 10,
-    "next_due_date": "2025-08-01"
+    "next_due_date": "Mar 02, 2026"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "tags": ["gym", "friend"],
     "bio": "Workout partner at the gym.",
     "goal": 10,
-    "next_due_date": "2025-07-30"
+    "next_due_date": "Feb 10, 2026"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tags": ["family"],
     "bio": "Cousin living abroad.",
     "goal": 15,
-    "next_due_date": "2025-07-15"
+    "next_due_date": "Jan 28, 2026"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "tags": ["client"],
     "bio": "Important business client.",
     "goal": 7,
-    "next_due_date": "2025-08-05"
+    "next_due_date": "Mar 08, 2026"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "tags": ["college"],
     "bio": "Classmate from computer science.",
     "goal": 7,
-    "next_due_date": "2025-07-28"
+    "next_due_date": "Feb 18, 2026"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["neighbor"],
     "bio": "Lives next door.",
     "goal": 10,
-    "next_due_date": "2025-07-18"
+    "next_due_date": "Jan 20, 2026"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "tags": ["friend"],
     "bio": "Met at a conference.",
     "goal": 7,
-    "next_due_date": "2025-08-03"
+    "next_due_date": "Mar 12, 2026"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "tags": ["project"],
     "bio": "Worked together on a freelance project.",
     "goal": 10,
-    "next_due_date": "2025-07-29"
+    "next_due_date": "Feb 22, 2026"
   },
   {
     "id": 10,
@@ -117,6 +117,30 @@
     "tags": ["family", "close friend"],
     "bio": "Childhood friend.",
     "goal": 14,
-    "next_due_date": "2025-07-22"
+    "next_due_date": "Jan 25, 2026"
+  },
+  {
+    "id": 11,
+    "name": "Daniel Clark",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 6,
+    "status": "due",
+    "tags": ["startup", "friend"],
+    "bio": "Met at a startup meetup.",
+    "goal": 8,
+    "next_due_date": "Feb 14, 2026"
+  },
+  {
+    "id": 12,
+    "name": "Emma Rodriguez",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "emma@example.com",
+    "days_since_contact": 1,
+    "status": "upcoming",
+    "tags": ["design", "colleague"],
+    "bio": "UI/UX designer colleague.",
+    "goal": 5,
+    "next_due_date": "Mar 18, 2026"
   }
 ]
