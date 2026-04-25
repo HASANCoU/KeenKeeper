@@ -11,7 +11,7 @@ const COLORS = ["#7C3AED", "#1F4D3F", "#22C55E"];
 const StatsPage = () => {
   const { logInfo } = useGlobalContext();
   return (
-    <div className="w-9/12 mx-auto my-20 space-y-8">
+    <div className="w-11/12 md:w-9/12 mx-auto my-20 space-y-8">
       <h2 className="text-5xl font-bold text-[#1F2937]">
         Friendship Analytics
       </h2>

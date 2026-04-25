@@ -17,7 +17,7 @@ const Homepage = async() => {
         </p>
         <button className="btn bg-[#244D3F] rounded-xs w-32 mx-auto">+ Add Friends</button>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-20">
         <div className="flex flex-col text-center bg-white shadow-xl space-y-2 rounded-2xl py-10">
             <h2 className="font-semibold text-4xl text-[#244D3F]">{friends.length}</h2>
             <p className="text-[#64748B] text-xl">Total Friends</p>
@@ -38,7 +38,7 @@ const Homepage = async() => {
       <hr className="border-[#E9E9E9] my-10"/>
       <div>
         <h2 className="font-semibold text-2xl text-[#1F2937] mb-2">Your Friends</h2>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {
           friends.map(friend=><Friends key={friend.id} friend={friend}/>)
         }

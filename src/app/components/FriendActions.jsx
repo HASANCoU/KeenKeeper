@@ -85,15 +85,15 @@ const FriendActions = ({ friend }) => {
 
 
   return (
-    <div className="grid grid-cols-5 gap-4">
-      <div className="bg-white rounded-2xl shadow-xl text-center p-8 col-span-2 row-span-2 space-y-4">
+    <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+      <div className="bg-white rounded-2xl shadow-xl text-center p-8 col-span-3 lg:col-span-2 lg:row-span-2 space-y-4">
         <div className="">
           <Image
             className="rounded-full mx-auto"
             src={picture}
             alt={name}
-            height={50}
-            width={50}
+            height={100}
+            width={100}
           ></Image>
         </div>
         <h2 className="text-[#1F2937] font-semibold">{name}</h2>
@@ -123,17 +123,17 @@ const FriendActions = ({ friend }) => {
         </h2>
         <h2 className="text-[#64748B] text-[14px]">{email}</h2>
       </div>
-      <div className="flex flex-col text-center bg-white shadow-xl space-y-2 rounded-2xl py-10">
+      <div className="flex flex-col text-center bg-white shadow-xl col-span-3 lg:col-span-1 space-y-2 rounded-2xl py-10">
         <h2 className="font-semibold text-3xl text-[#244D3F]">
           {days_since_contact}
         </h2>
         <p className="text-[#64748B] text-xl">Days Since Contact</p>
       </div>
-      <div className="flex flex-col text-center bg-white shadow-xl space-y-2 rounded-2xl py-10">
+      <div className="flex flex-col text-center bg-white shadow-xl col-span-3 lg:col-span-1 space-y-2 rounded-2xl py-10">
         <h2 className="font-semibold text-3xl text-[#244D3F]">{goal}</h2>
         <p className="text-[#64748B] text-xl">Goal(Days)</p>
       </div>
-      <div className="flex flex-col text-center bg-white shadow-xl space-y-2 rounded-2xl py-10">
+      <div className="flex flex-col text-center bg-white shadow-xl col-span-3 lg:col-span-1 space-y-2 rounded-2xl py-10">
         <h2 className="font-semibold text-3xl text-[#244D3F]">
           {next_due_date}
         </h2>
@@ -173,16 +173,16 @@ const FriendActions = ({ friend }) => {
         <div className="grid grid-cols-3 gap-6  text-[18px]">
           <button
             onClick={() => handleDialButton(friend)}
-            className="btn  border-none flex flex-col h-full text-[#1F2937] bg-[#F8FAFC] shadow-xs rounded-xl p-4 text-center space-y-2"
+            className="btn  border-none flex flex-col h-full text-[#1F2937] bg-[#F8FAFC] shadow-xs rounded-xl col-span-3 lg:col-span-1 p-4 text-center space-y-2"
           >
             <Phone className="w-1/5 mx-auto" />
             <h3>Call</h3>
           </button>
-          <button onClick={() =>handleTextButton(friend)} className="btn  border-none flex flex-col h-full text-[#1F2937] bg-[#F8FAFC] shadow-xs text-center rounded-xl p-4 space-y-2">
+          <button onClick={() =>handleTextButton(friend)} className="btn  border-none flex flex-col h-full text-[#1F2937] bg-[#F8FAFC] shadow-xs text-center rounded-xl col-span-3 lg:col-span-1 p-4 space-y-2">
             <MessageSquareMore className="w-1/5 mx-auto" />
             <h3>Text</h3>
           </button>
-          <button onClick={() =>handleVideoButton(friend)} className="btn  border-none flex flex-col h-full text-[#1F2937] bg-[#F8FAFC] shadow-xs rounded-xl text-center p-4 space-y-2">
+          <button onClick={() =>handleVideoButton(friend)} className="btn  border-none flex flex-col h-full text-[#1F2937] bg-[#F8FAFC] shadow-xs rounded-xl col-span-3 lg:col-span-1 text-center p-4 space-y-2">
             <Video className="w-1/5 mx-auto" />
             <h3>Video</h3>
           </button>
