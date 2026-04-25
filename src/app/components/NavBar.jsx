@@ -9,14 +9,14 @@ const NavBar = () => {
     const pathName = usePathname();
     console.log(pathName)
   return (
-    <div className="navbar flex justify-between gap-4 flex-col md:flex-row items-center -base-100 shadow-sm py-4 px-6 ">
+    <div className="navbar flex justify-between rounded-none gap-4 flex-col md:flex-row items-center -base-100  py-4 px-6 ">
       <div className="flex-1">
         <Link href="/">
         <h2 className="font-bold text-3xl text-black">Keen<span className="text-[#244D3F]">Keeper</span></h2>
         </Link>
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1 text-[16px] font-semibold flex gap-4 items-center">
+        <ul className="menu menu-horizontal px-1 text-[16px] font-semibold flex gap-4 justify-center items-center">
           <li>
             <Link href="/" className={`${pathName==='/'?'active':'not-active'} flex gap-1 items-center`}>
             <Home/>

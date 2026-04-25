@@ -5,8 +5,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-base-content rounded p-10">
-        <h1 className="text-6xl font-extrabold">KeenKeeper</h1>
-        <p>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
+        <h1 className="text-5xl font-extrabold">KeenKeeper</h1>
+        <p className="text-[16px]">Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
       
       <nav>
         <h2 className="text-xl">Social Links</h2>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
       </nav>
       <hr className="border-0.5 border-gray-600 w-full mt-10"></hr>
-      <aside className="flex justify-between gap-50 items-center">
+      <aside className="flex justify-between flex-col md:flex-row gap-10 md:gap-15 lg:gap-50 items-center">
         <p>
          © 2026 KeenKeeper. All rights reserved.
         </p>

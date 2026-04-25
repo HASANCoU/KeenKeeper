@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Bob Johnson",
-    "picture": "https://i.pravatar.cc/150?img=3",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
     "email": "bob@example.com",
     "days_since_contact": 10,
     "status": "due",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Davis",
-    "picture": "https://i.pravatar.cc/150?img=4",
+    "picture": "https://randomuser.me/api/portraits/men/4.jpg",
     "email": "emily@example.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "David Lee",
-    "picture": "https://i.pravatar.cc/150?img=7",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
     "email": "david@example.com",
     "days_since_contact": 14,
     "status": "overdue",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Olivia Martinez",
-    "picture": "https://i.pravatar.cc/150?img=8",
+    "picture": "https://randomuser.me/api/portraits/men/8.jpg",
     "email": "olivia@example.com",
     "days_since_contact": 2,
     "status": "upcoming",
