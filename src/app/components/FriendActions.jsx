@@ -29,6 +29,7 @@ const FriendActions = ({ friend }) => {
       id: Date.now(),
       name: friend.name,
       action: "Call",
+      icon:"/assets/call.png",
       time: new Date().toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
@@ -44,6 +45,7 @@ const FriendActions = ({ friend }) => {
       id: Date.now(),
       name: friend.name,
       action: "Text",
+      icon:"/assets/text.png",
       time: new Date().toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
@@ -59,6 +61,7 @@ const FriendActions = ({ friend }) => {
       id: Date.now(),
       name: friend.name,
       action: "Video",
+      icon:"/assets/video.png",
       time: new Date().toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
@@ -70,8 +73,7 @@ const FriendActions = ({ friend }) => {
     setLogInfo([...logInfo, logEntry]);
   };
 
-  
-  console.log(logInfo)
+
   return (
     <div className="grid grid-cols-5 gap-4">
       <div className="bg-white rounded-2xl shadow-xl text-center p-8 col-span-2 row-span-2 space-y-4">
