@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useGlobalContext } from "../context/GlobalContextProvider";
+import { toast } from "react-toastify";
 
 const FriendActions = ({ friend }) => {
   const {
@@ -39,6 +40,9 @@ const FriendActions = ({ friend }) => {
     };
 
     setLogInfo([...logInfo, logEntry]);
+    toast.success(`Call To ${friend.name}`,{
+       position: "top-center"
+    });
   };
   const handleTextButton = (friend) => {
     const logEntry = {
@@ -55,6 +59,9 @@ const FriendActions = ({ friend }) => {
     };
 
     setLogInfo([...logInfo, logEntry]);
+    toast.success(`Sent Text To ${friend.name}`,{
+       position: "top-center"
+    });
   };
   const handleVideoButton = (friend) => {
     const logEntry = {
@@ -71,6 +78,9 @@ const FriendActions = ({ friend }) => {
     };
 
     setLogInfo([...logInfo, logEntry]);
+    toast.success(`Video Call To ${friend.name}`,{
+      position: "top-center"
+    });
   };
 
 
