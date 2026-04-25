@@ -5,9 +5,13 @@ import History from "../components/History";
 
 
 const TimelinePage = () => {
-  const { logInfo, setLogInfo } = useGlobalContext();
-  const {search,setSearch} = useGlobalContext();
-  const notifications = logInfo;
+  const {logInfo,search,setSearch} = useGlobalContext();
+  const filteredNotifications = logInfo.filter((item) =>
+  item.name.toLowerCase().includes(search.toLowerCase()) ||
+  item.action.toLowerCase().includes(search.toLowerCase()) ||
+  item.status.toLowerCase().includes(search.toLowerCase()) ||
+  item.time.toLowerCase().includes(search.toLowerCase())
+);
   return (
     <div className="w-9/12 mx-auto my-10">
       <div>
@@ -26,7 +30,7 @@ const TimelinePage = () => {
       </div>
       <div className="space-y-4">
         {
-            notifications.map((notification,idx)=><History key={idx} notification={notification}/>)
+            filteredNotifications.map((notification,idx)=><History key={idx} notification={notification}/>)
         }
       </div>
       

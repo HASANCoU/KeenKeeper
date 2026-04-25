@@ -5,10 +5,10 @@ const GlobalContext = createContext();
 
 const GlobalContextProvider = ({ children }) => {
   const [logInfo, setLogInfo] = useState([]);
-  const [search, setSearch] = useState([]);
+  const [search, setSearch] = useState('');
 
   return (
-    <GlobalContext.Provider value={{ logInfo, setLogInfo }}>
+    <GlobalContext.Provider value={{ logInfo, setLogInfo, search, setSearch }}>
       {children}
     </GlobalContext.Provider>
   );
