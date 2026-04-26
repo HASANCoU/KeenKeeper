@@ -2,7 +2,7 @@ import React from "react";
 import Friends from "./Friends";
 
 const Homepage = async() => {
-  const res = await fetch("http://localhost:3000/data.json");
+  const res = await fetch("https://keen-keeper21.netlify.app/data.json",{cache:"no-store",});
   const friends = await res.json();
   return (
     <div className="w-9/12 mx-auto mt-20 mb-10">

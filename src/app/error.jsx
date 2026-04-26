@@ -4,7 +4,6 @@ import Link from 'next/link';
 
 
 export default function ErrorPage({ error, reset }) {
-  const router = useRouter();
 
   return (
     <div className="min-h-screen   bg-[#F8FAFC] px-4">

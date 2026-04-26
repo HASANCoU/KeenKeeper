@@ -5,7 +5,7 @@ import FriendActions from "../components/FriendActions";
 
 const FriendDetailsPage = async ({ params }) => {
   const { friendID } = await params;
-  const res = await fetch("http://localhost:3000/data.json");
+  const res = await fetch("https://keen-keeper21.netlify.app/data.json",{cache:"no-store",});
   const friends = await res.json();
   const friend = friends.find((friend) => friend.id == friendID);
   const { picture, name, tags, status,days_since_contact,goal,next_due_date,bio,email } = friend;
